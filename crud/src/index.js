@@ -1,7 +1,7 @@
 let express =  require('express');
 let morgan = require('morgan');
 let status = require('http-status');
-let body = require('body-parser');
+let bodyparser = require('body-parser');
 let logger = require('./config/logger')
 let { ApiError } = require ('./payload/apiError');
 require('dotenv').config({ path: '../../.env' })
@@ -9,12 +9,12 @@ let all = require('./routes');
 let helmet = require('helmet');
 let cors = require('cors');
 let app = express();
-let port = process.env.PORT || 3000;
-app.use(body.json());
+let port = process.env.PORT;
+app.use(express.json());
 app.use(morgan('tiny'))
+app.use('/', all);
 app.use(cors());
 app.use(helmet());
-app.use('/', all);
 app.use((req,res,next) =>{
 
     let state = status.NOT_FOUND;
