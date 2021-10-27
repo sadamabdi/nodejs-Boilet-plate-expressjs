@@ -12,6 +12,8 @@ let app = express();
 let port = process.env.PORT || 3000;
 app.use(body.json());
 app.use(morgan('tiny'))
+app.use(cors());
+app.use(helmet());
 app.use('/', all);
 app.use((req,res,next) =>{
 
