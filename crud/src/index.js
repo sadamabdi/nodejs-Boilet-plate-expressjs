@@ -1,5 +1,4 @@
 let express =  require('express');
-let bodyparser = require('body-parser');
 let morgan = require('morgan');
 let status = require('http-status');
 let logger = require('./config/logger')
@@ -9,8 +8,9 @@ let all = require('./routes');
 let helmet = require('helmet');
 let cors = require('cors');
 let app = express();
-let port = process.env.PORT;
-app.use(bodyparser.json());
+let port = 3001;
+let bodyparser = require('body-parser');
+app.use(express.json());
 app.use(morgan('tiny'))
 app.use('/', all);
 app.use(cors());
@@ -27,6 +27,6 @@ app.use((req,res,next) =>{
 app.use(function (err, req, res, next) {
     res.status(401).send(err)
 })
-app.listen(process.env.PORT , () => {
+app.listen(port , () => {
     console.log('is working'+port);
 });
