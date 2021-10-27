@@ -9,7 +9,7 @@ let all = require('./routes');
 let helmet = require('helmet');
 let cors = require('cors');
 let app = express();
-let port = process.env.PORT;
+let port = process.env.PORT || 3000;
 app.use(body.json());
 app.use(morgan('tiny'))
 app.use('/', all);
@@ -25,6 +25,6 @@ app.use((req,res,next) =>{
 app.use(function (err, req, res, next) {
     res.status(401).send(err)
 })
-app.listen(port , () => {
+app.listen(process.env.PORT || 3000 , () => {
     console.log('is working'+port);
 });
