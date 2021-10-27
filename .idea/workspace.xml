@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d2c72c3a-4058-4ddd-a176-65ecfc46c803" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1zJ1jtNjBukhfzP85LdnK0KreTe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Halima\WebstormProjects\testlect5\src\src" />
+      <recent name="C:\Users\Halima\WebstormProjects\testlect5\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Halima\WebstormProjects\testlect5\crud\src\services" />
+      <recent name="C:\Users\Halima\WebstormProjects\testlect5\crud\src\controller" />
+      <recent name="C:\Users\Halima\WebstormProjects\testlect5\less6\src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2c72c3a-4058-4ddd-a176-65ecfc46c803" name="Default Changelist" comment="" />
+      <created>1633851514598</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633851514598</updated>
+      <workItem from="1633851516957" duration="5677000" />
+      <workItem from="1633930935249" duration="1848000" />
+      <workItem from="1633939581130" duration="10455000" />
+      <workItem from="1634113271525" duration="8015000" />
+      <workItem from="1634363329096" duration="168000" />
+      <workItem from="1634372486829" duration="21381000" />
+      <workItem from="1634451848185" duration="8882000" />
+      <workItem from="1634533164847" duration="4230000" />
+      <workItem from="1634630202797" duration="26000" />
+      <workItem from="1634707613001" duration="9898000" />
+      <workItem from="1634794679698" duration="2421000" />
+      <workItem from="1635053905734" duration="12952000" />
+      <workItem from="1635139133849" duration="3416000" />
+      <workItem from="1635311924566" duration="5178000" />
+      <workItem from="1635321220359" duration="2148000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633948750405">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1633948750405" />
+    <state x="457" y="175" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1633947822703">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="457" y="175" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1633947822703" />
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1634485397091">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1634485397091" />
+    <state x="186" y="10" key="SettingsEditor" timestamp="1635322147095">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1635322147095" />
+  </component>
+</project>
