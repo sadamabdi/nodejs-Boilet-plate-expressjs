@@ -3,14 +3,14 @@ let morgan = require('morgan');
 let status = require('http-status');
 let logger = require('./config/logger')
 let { ApiError } = require ('./payload/apiError');
-require('dotenv').config({ path: '../../.env' })
+require('dotenv').config()
 let all = require('./routes');
 let helmet = require('helmet');
 let cors = require('cors');
+const bodyParser = require('body-parser');
 let app = express();
-let port = 3001;
-let bodyparser = require('body-parser');
-app.use(express.json());
+let port = process.env.PORT;
+app.use(bodyParser.json());
 app.use(morgan('tiny'))
 app.use('/', all);
 app.use(cors());

@@ -4,6 +4,7 @@ const {authServices} = require('../services')
 let { ApiResponses } = require ('../payload/ApirResponse');
 
 const login = (req,res) => {
+    console.log(req.body.password)
     let email = req.body.email;
     let password = req.body.password;
     let loginResponse = authServices.login(email,password);

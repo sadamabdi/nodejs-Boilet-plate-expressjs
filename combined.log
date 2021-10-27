@@ -1,0 +1,12 @@
+{
+  message: 'gell all data',
+  level: '\x1B[32minfo\x1B[39m',
+  label: 'right meow!',
+  timestamp: '2021-10-27T13:42:29.054Z'
+}
+{
+  message: 'gell single data bycali@gmail.com',
+  level: '\x1B[32minfo\x1B[39m',
+  label: 'right meow!',
+  timestamp: '2021-10-27T13:43:06.462Z'
+}
