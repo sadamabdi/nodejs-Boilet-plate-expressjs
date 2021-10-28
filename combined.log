@@ -10,3 +10,15 @@
   label: 'right meow!',
   timestamp: '2021-10-27T13:43:06.462Z'
 }
+{
+  message: 'gell all data',
+  level: '\x1B[32minfo\x1B[39m',
+  label: 'right meow!',
+  timestamp: '2021-10-27T15:35:17.181Z'
+}
+{
+  message: 'gell all data',
+  level: '\x1B[32minfo\x1B[39m',
+  label: 'right meow!',
+  timestamp: '2021-10-27T15:36:57.768Z'
+}
