@@ -4,7 +4,7 @@ let usr_router = require('./user.root')
 let auth_router = require('./auth.root')
 const path = [
     {
-        path: '/crud',
+        path: '/user',
         routs:usr_router
     },
     {

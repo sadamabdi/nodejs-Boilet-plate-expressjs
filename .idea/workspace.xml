@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2c72c3a-4058-4ddd-a176-65ecfc46c803" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/testlect5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/boiletPlate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/database.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/locales/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/locales/so.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/util.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combined.log" beforeDir="false" afterPath="$PROJECT_DIR$/combined.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/auth.ctrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/auth.ctrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/user.ctrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/user.ctrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middleware/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/middleware/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/user.root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/user.root.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/auth_services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/auth_services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/user_services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/user_services.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +85,14 @@
       <workItem from="1635311924566" duration="5178000" />
       <workItem from="1635321220359" duration="2152000" />
       <workItem from="1635336107682" duration="1233000" />
+      <workItem from="1635690683504" duration="9554000" />
+      <workItem from="1635832451900" duration="14635000" />
+      <workItem from="1635863858927" duration="3292000" />
+      <workItem from="1635916813202" duration="14364000" />
+      <workItem from="1636004065795" duration="4408000" />
+      <workItem from="1636174758329" duration="534000" />
+      <workItem from="1636305127200" duration="932000" />
+      <workItem from="1636348695227" duration="7387000" />
     </task>
     <servers />
   </component>
@@ -79,10 +100,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633948750405">
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1635756555097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1633948750405" />
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1635756555097" />
     <state x="457" y="175" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1633947822703">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -91,9 +112,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1634485397091" />
-    <state x="186" y="10" key="SettingsEditor" timestamp="1635322147095">
+    <state x="186" y="10" key="SettingsEditor" timestamp="1636350184508">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1635322147095" />
+    <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1636350184508" />
   </component>
 </project>

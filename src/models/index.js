@@ -1,4 +1,6 @@
-let userModel = require('./user_models');
+let userModel = require('./user.models');
+let permission = require('./permissions');
 module.exports = {
-    userModel
+    userModel,
+    permission
 }

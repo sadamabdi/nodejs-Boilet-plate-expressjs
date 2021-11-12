@@ -1,5 +1,5 @@
-let userServices = require('./user_services');
-let authServices = require('./auth_services');
+let userServices = require('./user.services');
+let authServices = require('./auth.services');
 module.exports = {
     userServices,
     authServices
