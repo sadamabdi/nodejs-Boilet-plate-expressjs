@@ -11,7 +11,7 @@ const authentication = (per) => (req,res,next) =>{
   let role = token.payload.role;
   console.log(role);
   let usrPermissions =  permission.getUserPermission(role).then(res=>{
-     let perm = res.filter(d => d.permissionname == per )
+     let perm = res.filter(d => d.permissionname.toLowerCase() == per.toLowerCase() )
      if (perm.length > 0) {
         return next();
      }
